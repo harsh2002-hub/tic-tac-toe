@@ -1,0 +1,36 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+    width: 300px;
+    height: 300px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  .button {
+    border: 3px solid #010407;
+    /* border: none; */
+    background-color: #eef1f3;
+    color: #3557c8;
+    font-size: 64px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button:hover {
+    background-color: #c9d2db;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #626a72;
+  }
+  
